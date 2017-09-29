@@ -1,6 +1,6 @@
 package co.simplon.factorielle;
 
-public class Logger {
+public class MonGestionnaireDeLog{
 
 	// console mail fichier bdd
 	String destinationLog = "console";
@@ -11,7 +11,7 @@ public class Logger {
 	boolean typeWarning = false;
 	boolean typeErreur = false;
 
-	public Logger(String destinationLog, boolean typeMacro, boolean typeInfo, boolean typeWarning, boolean typeErreur) {
+	public MonGestionnaireDeLog(String destinationLog, boolean typeMacro, boolean typeInfo, boolean typeWarning, boolean typeErreur) {
 		super();
 		this.destinationLog = destinationLog;
 		this.typeMacro = typeMacro;

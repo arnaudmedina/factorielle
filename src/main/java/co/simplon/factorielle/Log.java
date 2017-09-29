@@ -1,9 +1,5 @@
 package co.simplon.factorielle;
 
-
-import java.util.Date;
-
-
 public class Log {
 
 	private long lHeure;
