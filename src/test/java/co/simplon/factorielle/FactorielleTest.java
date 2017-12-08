@@ -42,7 +42,7 @@ public class FactorielleTest {
 		resultat = factorielle.calculer(n);
 
 		// THEN
-		assertEquals("Probleme #14 !!!", ResultatAttendu, resultat);
+		assertEquals("Probleme #14 !!! ", ResultatAttendu, resultat);
 	}
 
 	@Test
