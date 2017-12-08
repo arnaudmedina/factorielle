@@ -115,7 +115,7 @@ public class FactorielleTest {
 		assertEquals(ResultatAttendu, resultat);
 	}
 
-	@Test(timeout = 10)
+	@Test(timeout = 100)
 	public void teste_performance() {
 		// GIVEN
 		Long n = 18L;
